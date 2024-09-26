@@ -23,7 +23,7 @@ const ProgressCard: React.FC<ProgressCardProps> = ({
           className={`h-[38px] relative rounded-[10px]  flex p-[10px] items-center ${BgColor}`}
           style={{ width }}
         >
-          <p className="absolute whitespace-nowrap font-bold text-[18px] leading-[18px]">
+          <p className="absolute uppercase whitespace-nowrap font-bold text-[12px] leading-[18px]">
             {text}
           </p>
         </div>
@@ -31,7 +31,9 @@ const ProgressCard: React.FC<ProgressCardProps> = ({
           <p className="text-[#374258] font-bold leading-[28px] text-[18px]">
             {percentage} %
           </p>
-          <p>{score}</p>
+          <p className="text-[#75819A] font-bold leading-[28px] text-[18px]">
+            {score}
+          </p>
         </div>
       </div>
     </div>

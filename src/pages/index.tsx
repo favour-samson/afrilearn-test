@@ -100,7 +100,7 @@ export default function Home() {
               <div className="flex flex-col gap-[20px]">
                 <ProgressCard
                   BgColor="bg-[#F9D5D5]"
-                  width="408px"
+                  width="388px"
                   text="Flowering plants"
                   percentage={100}
                   score="15 / 30"
