@@ -9,8 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#37425B",
+        background: "#FFFFFF",
+      },
+      boxShadow: {
+        "custom-navbar": "0px 4px 6px 0px #0000000",
       },
     },
   },
