@@ -20,7 +20,9 @@ const SidebarLink: React.FC<SidebarLinkProps> = ({ icon, text, href }) => {
         }`}
       >
         <div>{icon}</div>
-        <span className="text-primary text-base font-medium">{text}</span>
+        <span className="text-primary text-base font-medium sidebarfont">
+          {text}
+        </span>
       </div>
     </Link>
   );
